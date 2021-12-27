@@ -1,6 +1,6 @@
 import os 
 
-def make_commit(days : int):
+def make_commit(days: int):
     if days <1:
         
         return os.system('git push')
